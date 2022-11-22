@@ -38,7 +38,7 @@ export default function Admin() {
               deadline: doc.data()?.deadline
             })
           });
-
+          
           setTarefas(lista);
         })
       }

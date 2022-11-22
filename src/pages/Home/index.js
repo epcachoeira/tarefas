@@ -37,7 +37,6 @@ export default function Home() {
         <input type="text" placeholder='Digite seu e-mail'
             value={email} onChange={ (e) => setEmail(e.target.value)} />
         <input type="password" placeholder='Digite sua senha'
-//            autoComplete={false}
             value={password} onChange={ (e) => setPassword(e.target.value)} />
         <button type='submit'>Acessar</button>
       </form>
